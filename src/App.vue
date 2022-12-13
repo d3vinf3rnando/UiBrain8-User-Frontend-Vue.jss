@@ -1,13 +1,20 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
-  juebfubefub
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <div>
+    <p class="is-size-7">Hello world</p>
+    
+  </div>
+  
 </template>
 
 <style scoped>
+
 header {
   line-height: 1.5;
 }
@@ -34,4 +41,6 @@ header {
     flex-wrap: wrap;
   }
 }
+
+
 </style>
